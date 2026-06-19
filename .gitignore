@@ -1,0 +1,19 @@
+# Secrets — never commit (Telegram/Slack tokens, API keys live here)
+.env
+.env.*
+!.env.example
+*.key
+secrets.json
+trader/.env
+
+# OS / editor cruft
+.DS_Store
+**/.DS_Store
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
