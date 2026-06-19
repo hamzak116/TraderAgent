@@ -1,8 +1,180 @@
 {
   "created": "2026-06-19",
-  "starting_cash": 2000.0,
-  "cash": 2000.0,
-  "positions": [],
+  "starting_cash": 2003.42,
+  "cash": 161.79,
+  "positions": [
+    {
+      "ticker": "GOOGL",
+      "shares": 0.34,
+      "avg_cost": 294.12,
+      "opened": "2026-06-19",
+      "lots": [
+        {
+          "date": "2026-06-19",
+          "shares": 0.34,
+          "price": 294.12,
+          "imported": true
+        }
+      ],
+      "stop": null,
+      "target": null,
+      "imported": true,
+      "import_date": "2026-06-19",
+      "import_price": 368.03
+    },
+    {
+      "ticker": "EXPE",
+      "shares": 0.44,
+      "avg_cost": 227.27,
+      "opened": "2026-06-19",
+      "lots": [
+        {
+          "date": "2026-06-19",
+          "shares": 0.44,
+          "price": 227.27,
+          "imported": true
+        }
+      ],
+      "stop": null,
+      "target": null,
+      "imported": true,
+      "import_date": "2026-06-19",
+      "import_price": 240.9
+    },
+    {
+      "ticker": "IREN",
+      "shares": 2.18,
+      "avg_cost": 46.34,
+      "opened": "2026-06-19",
+      "lots": [
+        {
+          "date": "2026-06-19",
+          "shares": 2.18,
+          "price": 46.34,
+          "imported": true
+        }
+      ],
+      "stop": null,
+      "target": null,
+      "imported": true,
+      "import_date": "2026-06-19",
+      "import_price": 59.96
+    },
+    {
+      "ticker": "MSFT",
+      "shares": 0.18,
+      "avg_cost": 416.67,
+      "opened": "2026-06-19",
+      "lots": [
+        {
+          "date": "2026-06-19",
+          "shares": 0.18,
+          "price": 416.67,
+          "imported": true
+        }
+      ],
+      "stop": null,
+      "target": null,
+      "imported": true,
+      "import_date": "2026-06-19",
+      "import_price": 379.4
+    },
+    {
+      "ticker": "RKLB",
+      "shares": 1.0,
+      "avg_cost": 109.93,
+      "opened": "2026-06-19",
+      "lots": [
+        {
+          "date": "2026-06-19",
+          "shares": 1.0,
+          "price": 109.93,
+          "imported": true
+        }
+      ],
+      "stop": null,
+      "target": null,
+      "imported": true,
+      "import_date": "2026-06-19",
+      "import_price": 107.24
+    },
+    {
+      "ticker": "ZS",
+      "shares": 1.35,
+      "avg_cost": 151.81,
+      "opened": "2026-06-19",
+      "lots": [
+        {
+          "date": "2026-06-19",
+          "shares": 1.35,
+          "price": 151.81,
+          "imported": true
+        }
+      ],
+      "stop": null,
+      "target": null,
+      "imported": true,
+      "import_date": "2026-06-19",
+      "import_price": 124.85
+    },
+    {
+      "ticker": "SGOL",
+      "shares": 12.45,
+      "avg_cost": 41.37,
+      "opened": "2026-06-19",
+      "lots": [
+        {
+          "date": "2026-06-19",
+          "shares": 12.45,
+          "price": 41.37,
+          "imported": true
+        }
+      ],
+      "stop": null,
+      "target": null,
+      "imported": true,
+      "import_date": "2026-06-19",
+      "import_price": 40.16
+    },
+    {
+      "ticker": "IVV",
+      "shares": 0.77,
+      "avg_cost": 681.82,
+      "opened": "2026-06-19",
+      "lots": [
+        {
+          "date": "2026-06-19",
+          "shares": 0.77,
+          "price": 681.82,
+          "imported": true
+        }
+      ],
+      "stop": null,
+      "target": null,
+      "imported": true,
+      "import_date": "2026-06-19",
+      "import_price": 750.11
+    },
+    {
+      "ticker": "VXUS",
+      "shares": 0.67,
+      "avg_cost": 74.64,
+      "opened": "2026-06-19",
+      "lots": [
+        {
+          "date": "2026-06-19",
+          "shares": 0.67,
+          "price": 74.64,
+          "imported": true
+        }
+      ],
+      "stop": null,
+      "target": null,
+      "imported": true,
+      "import_date": "2026-06-19",
+      "import_price": 86.77
+    }
+  ],
   "benchmark": {
     "ticker": "SPY",
     "start_price": 746.74,
