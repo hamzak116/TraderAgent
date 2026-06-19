@@ -95,8 +95,8 @@ secrets. The GitHub mobile app + Telegram messages may make this unnecessary.
 
 - The agent still never trades and never touches money — remote execution
   changes where research runs, not what it's allowed to do.
-- Shariah screen, risk tiers, learning loop: identical (AGENT.md travels with
-  the repo).
+- Profile constraints, risk tiers, learning loop: identical (AGENT.md travels
+  with the repo).
 - Cost note: cloud routines consume plan usage; GitHub Actions consumes API
   tokens — worth a week of parallel running to gauge daily cost either way.
 

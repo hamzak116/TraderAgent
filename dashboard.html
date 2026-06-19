@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio · trading-agent</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0a0c10; --ink2:#11141a; --line:#23272f;
+    --paper:#ece4d3; --muted:#8b8676; --faint:#5b5d63;
+    --gold:#c8a24a; --gain:#5fb87a; --loss:#d8604a; --flat:#8b8676;
+    --serif:'Fraunces',Georgia,serif; --mono:'JetBrains Mono',ui-monospace,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    background:
+      radial-gradient(1200px 600px at 80% -10%, rgba(200,162,74,.08), transparent 60%),
+      radial-gradient(900px 500px at -10% 110%, rgba(95,184,122,.05), transparent 55%),
+      var(--ink);
+    color:var(--paper); font-family:var(--mono); line-height:1.5;
+    min-height:100vh; padding:clamp(20px,5vw,64px);
+  }
+  body::before{
+    content:""; position:fixed; inset:0; pointer-events:none; opacity:.035; z-index:0;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+  .wrap{max-width:980px;margin:0 auto;position:relative;z-index:1}
+  .masthead{
+    display:flex;justify-content:space-between;align-items:baseline;
+    border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:34px;gap:16px;flex-wrap:wrap;
+  }
+  .brand{font-family:var(--serif);font-weight:900;font-size:clamp(20px,3vw,26px);letter-spacing:-.01em}
+  .brand .dot{color:var(--gold)}
+  .stamp{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.18em}
+  .hero{margin-bottom:14px}
+  .hero .label{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+  .hero .equity{font-family:var(--serif);font-weight:600;font-size:clamp(48px,11vw,92px);line-height:.95;letter-spacing:-.02em;margin:6px 0 2px}
+  .verdict{font-family:var(--serif);font-style:italic;font-size:clamp(17px,2.6vw,23px);color:var(--paper)}
+  .verdict .em{font-style:normal;font-weight:600}
+  .ribbon{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 40px}
+  .chip{
+    border:1px solid var(--line);border-radius:2px;padding:12px 16px;background:rgba(255,255,255,.012);
+    min-width:150px;flex:1
+  }
+  .chip .k{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+  .chip .v{font-family:var(--serif);font-weight:600;font-size:clamp(20px,3.2vw,28px);margin-top:6px}
+  h2{
+    font-family:var(--serif);font-weight:500;font-size:13px;letter-spacing:.26em;text-transform:uppercase;
+    color:var(--gold);margin:40px 0 16px;display:flex;align-items:center;gap:14px
+  }
+  h2::after{content:"";flex:1;height:1px;background:var(--line)}
+  table{width:100%;border-collapse:collapse;font-size:13.5px}
+  thead th{
+    text-align:right;font-weight:500;color:var(--muted);font-size:10px;letter-spacing:.14em;
+    text-transform:uppercase;padding:0 0 10px;border-bottom:1px solid var(--line)
+  }
+  thead th:first-child{text-align:left}
+  tbody td{padding:13px 0;border-bottom:1px solid rgba(35,39,47,.55);text-align:right;font-variant-numeric:tabular-nums}
+  tbody td:first-child{text-align:left;font-weight:700;letter-spacing:.02em}
+  tbody tr:hover td{background:rgba(200,162,74,.03)}
+  .tk-star{color:var(--gold);font-size:10px;vertical-align:super;margin-left:1px}
+  .pos{color:var(--gain)} .neg{color:var(--loss)} .flat{color:var(--flat)}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+  .stat{background:var(--ink);padding:18px 16px}
+  .stat .k{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+  .stat .v{font-family:var(--serif);font-weight:600;font-size:26px;margin-top:8px}
+  .calls{list-style:none;display:flex;flex-direction:column;gap:1px;background:var(--line);border:1px solid var(--line)}
+  .calls li{background:var(--ink);padding:14px 16px}
+  .calls .h{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+  .calls .name{font-weight:700;font-size:15px}
+  .calls .conf{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);border:1px solid var(--line);padding:2px 7px;border-radius:2px}
+  .calls .th{color:var(--muted);font-size:12.5px;margin-top:7px;line-height:1.55}
+  .warn{border-left:2px solid var(--loss);background:rgba(216,96,74,.06);padding:11px 15px;margin-bottom:24px;font-size:12.5px;color:var(--paper)}
+  .foot{margin-top:46px;padding-top:18px;border-top:1px solid var(--line);font-size:11px;color:var(--faint);letter-spacing:.04em;line-height:1.7}
+  .foot .guard{color:var(--gold)}
+  .empty{color:var(--muted);font-style:italic;padding:14px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="masthead">
+    <div class="brand">trading&middot;agent<span class="dot">.</span></div>
+    <div class="stamp">2026-06-19 · paper portfolio</div>
+  </div>
+
+  
+
+  <div class="hero">
+    <div class="label">Total equity</div>
+    <div class="equity">$2,003.42</div>
+    <div class="verdict"><span class="em pos">ahead of SPY by 0.00%</span> since 2026-06-19</div>
+  </div>
+
+  <div class="ribbon">
+    <div class="chip"><div class="k">Total return</div><div class="v pos">+0.00%</div></div>
+    <div class="chip"><div class="k">SPY benchmark</div><div class="v flat">+0.00%</div></div>
+    <div class="chip"><div class="k">Alpha</div><div class="v pos">+0.00%</div></div>
+    <div class="chip"><div class="k">Cash</div><div class="v">$161.79</div></div>
+  </div>
+
+  <h2>Positions</h2>
+  <table>
+    <thead><tr>
+      <th>Ticker</th><th>Shares</th><th>Avg cost</th><th>Price</th><th>Day</th>
+      <th>Value</th><th>Unreal.</th><th>Stop</th><th>Target</th>
+    </tr></thead>
+    <tbody><tr><td>IVV<span class="tk-star">★</span></td><td>0.77</td><td>$681.82</td><td>$750.11</td><td class='pos'>+1.01%</td><td>$577.58</td><td class='pos'>+10.02%</td><td>—</td><td>—</td></tr><tr><td>SGOL<span class="tk-star">★</span></td><td>12.45</td><td>$41.37</td><td>$40.16</td><td class='neg'>-0.40%</td><td>$499.99</td><td class='neg'>-2.92%</td><td>—</td><td>—</td></tr><tr><td>ZS<span class="tk-star">★</span></td><td>1.35</td><td>$151.81</td><td>$124.85</td><td class='pos'>+0.38%</td><td>$168.55</td><td class='neg'>-17.76%</td><td>—</td><td>—</td></tr><tr><td>IREN<span class="tk-star">★</span></td><td>2.18</td><td>$46.34</td><td>$59.96</td><td class='pos'>+3.18%</td><td>$130.71</td><td class='pos'>+29.39%</td><td>—</td><td>—</td></tr><tr><td>GOOGL<span class="tk-star">★</span></td><td>0.34</td><td>$294.12</td><td>$368.03</td><td class='pos'>+1.17%</td><td>$125.13</td><td class='pos'>+25.13%</td><td>—</td><td>—</td></tr><tr><td>RKLB<span class="tk-star">★</span></td><td>1</td><td>$109.93</td><td>$107.24</td><td class='neg'>-0.69%</td><td>$107.24</td><td class='neg'>-2.45%</td><td>—</td><td>—</td></tr><tr><td>EXPE<span class="tk-star">★</span></td><td>0.44</td><td>$227.27</td><td>$240.90</td><td class='pos'>+0.60%</td><td>$106.00</td><td class='pos'>+6.00%</td><td>—</td><td>—</td></tr><tr><td>MSFT<span class="tk-star">★</span></td><td>0.18</td><td>$416.67</td><td>$379.40</td><td class='pos'>+0.13%</td><td>$68.29</td><td class='neg'>-8.94%</td><td>—</td><td>—</td></tr><tr><td>VXUS<span class="tk-star">★</span></td><td>0.67</td><td>$74.64</td><td>$86.77</td><td class='pos'>+0.72%</td><td>$58.14</td><td class='pos'>+16.25%</td><td>—</td><td>—</td></tr></tbody>
+  </table>
+  <p style="color:var(--muted);font-size:11px;margin-top:10px">★ imported holding — Unreal. % is vs your own cost basis.</p>
+
+  <h2>Track record</h2>
+  <div class="stats"><div class="stat"><div class="k">Status</div><div class="v" style="font-size:15px">No closed calls yet</div></div></div>
+
+  <h2>Open calls</h2>
+  <p class="empty">No open agent calls right now.</p>
+
+  <div class="foot">
+    <span class="guard">The agent never executes trades and holds no money.</span>
+    Every suggestion is simulated here and graded against the S&amp;P 500.
+    Not financial advice. Generated 2026-06-19 11:55 UTC by trader/scripts/dashboard.py.
+  </div>
+</div>
+</body>
+</html>
