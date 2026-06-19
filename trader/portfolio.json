@@ -1,0 +1,11 @@
+{
+  "created": "2026-06-19",
+  "starting_cash": 2000.0,
+  "cash": 2000.0,
+  "positions": [],
+  "benchmark": {
+    "ticker": "SPY",
+    "start_price": 746.74,
+    "start_date": "2026-06-19"
+  }
+}
