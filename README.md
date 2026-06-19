@@ -13,7 +13,7 @@ benchmarked against the S&P 500, and learns from graded outcomes.
 | Path | What |
 |---|---|
 | `trader/AGENT.md` | Operating manual — guardrails, routines, risk tiers, learning loop |
-| `trader/profile.md` | User's risk profile, goals, constraints (incl. Shariah-compliance screen) |
+| `trader/profile.md` | User's risk profile, goals, constraints |
 | `trader/scripts/` | `quotes.py` (live prices), `portfolio.py` (paper ledger + alpha-vs-SPY grading) |
 | `trader/portfolio.json`, `suggestions.json` | Ledger state — the source of truth |
 | `trader/lessons.md` | Post-mortems from graded calls; read before every morning run |
@@ -35,6 +35,6 @@ Run via slash commands or on a schedule:
 ## Guardrails
 
 Never trades · equities long-only (no options/futures/crypto/shorting) ·
-every suggestion carries thesis/confidence/stop/target/horizon · every buy
-passes a Shariah-compliance screen · performance numbers come only from the
-ledger scripts.
+every suggestion carries thesis/confidence/stop/target/horizon · suggestions
+respect the user's profile constraints · performance numbers come only from
+the ledger scripts.

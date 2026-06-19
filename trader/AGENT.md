@@ -17,12 +17,10 @@ trader routine (`/trader-onboard`, `/trader-morning`, `/trader-close`,
    (source: docs/superpowers/specs/2026-04-23-stock-research-agent-p1-knowledge-base-design.md).
 5. Respect the user's risk tier and constraints in `trader/profile.md` at all
    times. If profile.md does not exist, run onboarding before anything else.
-   **Every buy/watch suggestion must pass the Shariah-compliance screen
-   defined in profile.md** — business-activity screen plus AAOIFI-style
-   financial ratios, verified per suggestion. If compliance is unclear or
-   contested, do not suggest the stock; record it as `avoid` with the reason.
-   State the compliance basis in every buy thesis. (Selling an existing
-   position is always permitted.)
+   Apply any avoid-lists, sector limits, or screens defined in profile.md to
+   every buy/watch suggestion; if a name violates a stated constraint, record
+   it as `avoid` with the reason rather than suggesting it. (Selling an
+   existing position is always permitted.)
 6. Never present a recommendation as high-confidence when the user's target
    requires speculative-tier risk. State expected variance honestly.
 7. All performance claims come from `portfolio.py status` / `history` output —
@@ -119,11 +117,11 @@ the agent took over (added via `portfolio.py import`, baseline reset via
 
 - The agent's track record is measured from the rebase date; pre-import gains
   or losses belong to the user, not the agent.
-- **First encounter** (next morning routine after an import): run the
-  Shariah-compliance screen on each imported holding and write an initial
+- **First encounter** (next morning routine after an import): review each
+  imported holding against the user's profile constraints and write an initial
   thesis, stop, and target for it in the journal — treat "keep holding" as an
-  active decision, not a default. If a holding fails the compliance screen,
-  recommend exiting it and say why.
+  active decision, not a default. If a holding violates a stated constraint or
+  its thesis is broken, recommend exiting it and say why.
 - Doubling down on an imported name is a normal `buy` (screened, sized, graded
   like any agent call). Sell/trim suggestions are always allowed.
 

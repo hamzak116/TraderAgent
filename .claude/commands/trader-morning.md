@@ -14,7 +14,7 @@ Quick reference:
 2. Context: profile.md, lessons.md, `python3 trader/scripts/portfolio.py status` and `history --open`.
 3. Regime scan (SPY/QQQ/IWM/^VIX quotes + WebSearch overnight news, macro calendar).
 4. Review each holding against stops, targets, news, thesis.
-5. Research candidates per the methodology; run the Shariah-compliance screen from profile.md on every candidate before deep research (unclear = do not suggest); check every prospective call against lessons.md.
+5. Research candidates per the methodology; apply the constraints from profile.md to every candidate before deep research (a name that violates a stated constraint = do not suggest); check every prospective call against lessons.md.
 6. Record suggestions with `portfolio.py buy/sell/note` (full thesis, confidence, stop, target, horizon). Zero suggestions is valid.
 7. Write `trader/journal/<today>-morning.md` per the suggestion format in AGENT.md.
 8. Refresh dashboard: `python3 trader/scripts/dashboard.py`. Then push state: `bash trader/scripts/sync.sh push "morning: <today> brief"`.
