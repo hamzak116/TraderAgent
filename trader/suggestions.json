@@ -1,5 +1,5 @@
 {
-  "next_id": 19,
+  "next_id": 20,
   "suggestions": [
     {
       "id": 1,
@@ -317,6 +317,24 @@
       "shares": null,
       "dollars": null,
       "thesis": "First-encounter review (imported intl-ex-US ETF, cost $74.64, now $86.77, +16%). Geographic diversifier reducing US-concentration risk; no single-name catalyst to track. Held as a core diversification position, no active stop.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 746.74,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 19,
+      "recorded_at": "2026-06-22T05:06:01Z",
+      "date": "2026-06-22",
+      "action": "watch",
+      "ticker": "EXPE",
+      "price": 240.9,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Downgrading hold->watch (no price action, regime-driven). Iran-Israel tensions flared again over the weekend: WTI crude +3% to ~$78/bbl, S&P/Nasdaq futures down ~0.4-0.6% Monday AM on the renewed risk, even though the Jun 14 Islamabad MOU technically lifted the Hormuz blockade. Fresh read of EXPE's own Q1 call shows management already flagged elevated cancellation rates tied to Middle East tensions and Mexico advisories (Middle East is <2% of bookings directly, but spillover hit Europe/Asia cancellations). The core travel-tailwind thesis depends on de-escalation holding; today's headlines argue the de-escalation is fragile, not reversed. Stop 17-220 / target 60-265 unchanged, not breached. Watching for: (1) any new cancellation-rate disclosure, (2) whether Hormuz traffic data confirms the reopening is holding through this flare-up.",
       "confidence": "medium",
       "stop": null,
       "target": null,
