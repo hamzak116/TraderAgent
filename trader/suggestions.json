@@ -1,5 +1,5 @@
 {
-  "next_id": 20,
+  "next_id": 22,
   "suggestions": [
     {
       "id": 1,
@@ -340,6 +340,42 @@
       "target": null,
       "horizon_days": null,
       "spy_at_suggestion": 746.74,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 20,
+      "recorded_at": "2026-06-23T05:06:58Z",
+      "date": "2026-06-23",
+      "action": "watch",
+      "ticker": "GOOGL",
+      "price": 349.68,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Downgrading HOLD->WATCH: stock fell ~5% Mon 6/22 on sector-wide 'AI capex anxiety' (hyperscaler capex >$452B, Alphabet Q1 FCF -47% YoY to $10.1B) plus a second senior AI researcher departure in 11 days (DeepMind VP John Jumper -> Anthropic, following Noam Shazeer -> OpenAI) and a legal loss (YouTube-addictive-design retrial denied). Revenue growth (+22% YoY) and Strong Buy consensus are unchanged, so not thesis-broken, but the talent-exodus pattern + FCF compression + buyback suspension/dilution from the $84.75B secondary stack up. Stop 31 (-10% from import), target 20-430 reaffirmed; watching Q2 print for capex/FCF trajectory before reverting to plain HOLD.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 744.39,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 21,
+      "recorded_at": "2026-06-23T05:07:02Z",
+      "date": "2026-06-23",
+      "action": "watch",
+      "ticker": "RKLB",
+      "price": 100.29,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Downgrading HOLD->WATCH: stock fell 6.48% Mon 6/22 to $100.29, now only ~4.3% above the $96 forward stop. Two compounding factors: (1) classic 'sell the news' after Nasdaq-100 inclusion became effective 6/22 -- the rumor (known since 6/12) was already priced in; (2) sector contagion from SpaceX (SPCX), which plunged 16% in a day / ~24% over three sessions post-IPO on lockup-expiration and $20B bond-sale jitters, dragging the whole space-sector complex (RKLB, AST SpaceMobile, Firefly, Voyager) lower with it. RKLB's own fundamentals are unchanged (record Q1 revenue +63.5% YoY, $816M Space Force + $190M HASTE + ~$90M Heimdall backlog) -- this reads as multiple compression from sector sentiment, not a broken thesis. Stop $96 unchanged (not tightening into a volatility air-pocket); target $125-135 reaffirmed.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 744.39,
       "status": "standalone",
       "outcome": null
     }
