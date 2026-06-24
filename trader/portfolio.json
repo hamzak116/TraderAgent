@@ -1,7 +1,7 @@
 {
   "created": "2026-06-19",
   "starting_cash": 2003.42,
-  "cash": 161.79,
+  "cash": 256.91,
   "positions": [
     {
       "ticker": "GOOGL",
@@ -78,25 +78,6 @@
       "imported": true,
       "import_date": "2026-06-19",
       "import_price": 379.4
-    },
-    {
-      "ticker": "RKLB",
-      "shares": 1.0,
-      "avg_cost": 109.93,
-      "opened": "2026-06-19",
-      "lots": [
-        {
-          "date": "2026-06-19",
-          "shares": 1.0,
-          "price": 109.93,
-          "imported": true
-        }
-      ],
-      "stop": null,
-      "target": null,
-      "imported": true,
-      "import_date": "2026-06-19",
-      "import_price": 107.24
     },
     {
       "ticker": "ZS",

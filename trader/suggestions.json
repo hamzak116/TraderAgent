@@ -1,5 +1,5 @@
 {
-  "next_id": 22,
+  "next_id": 24,
   "suggestions": [
     {
       "id": 1,
@@ -376,6 +376,45 @@
       "target": null,
       "horizon_days": null,
       "spy_at_suggestion": 744.39,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 22,
+      "recorded_at": "2026-06-24T05:07:20Z",
+      "date": "2026-06-24",
+      "action": "sell",
+      "ticker": "RKLB",
+      "price": 95.12,
+      "shares": 1.0,
+      "dollars": 95.12,
+      "thesis": "Stop breached: price $95.12 < $96 forward stop (set 6/19, reaffirmed 6/23). Decline is sector contagion (SpaceX's $20B bond sale + post-IPO lockup jitters dragging the whole space complex -8% incl. RKLB, even on its Nasdaq-100 debut day) layered on a month of profit-taking (-23.7% trailing month), not a break in RKLB's own fundamentals (record Q1 revenue +63.5% YoY, $2.2B backlog +108% YoY). Per AGENT.md: a breached stop is acted on immediately, not held through on a 'fundamentals are fine' rationale -- that's what the stop is for. Exiting the full position; would consider re-entering on a confirmed base/reclaim of the level, not on a falling knife.",
+      "confidence": null,
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 733.58,
+      "status": "closed",
+      "outcome": {
+        "return_pct": -13.47,
+        "vs_avg_cost": 109.93
+      }
+    },
+    {
+      "id": 23,
+      "recorded_at": "2026-06-24T05:07:23Z",
+      "date": "2026-06-24",
+      "action": "hold",
+      "ticker": "EXPE",
+      "price": 245.07,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Upgrading WATCH->HOLD: third straight session of relative strength (+2.96% today to $245.07, well above the $220 stop) while the broader tape sells off on the chip-led tech rout. The geopolitical overhang flagged on 6/22 (Iran tension, oil spike) has kept easing rather than reversing -- US authorized Iranian oil sales through August, oil fell further. No new cancellation-rate disclosures. Reverting WATCH to plain HOLD; stop $220, target $260-265 unchanged.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 733.58,
       "status": "standalone",
       "outcome": null
     }
