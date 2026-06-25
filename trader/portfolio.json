@@ -1,7 +1,7 @@
 {
   "created": "2026-06-19",
   "starting_cash": 2003.42,
-  "cash": 256.91,
+  "cash": 424.23,
   "positions": [
     {
       "ticker": "GOOGL",
@@ -24,7 +24,7 @@
     },
     {
       "ticker": "EXPE",
-      "shares": 0.44,
+      "shares": 0.22,
       "avg_cost": 227.27,
       "opened": "2026-06-19",
       "lots": [
@@ -40,25 +40,6 @@
       "imported": true,
       "import_date": "2026-06-19",
       "import_price": 240.9
-    },
-    {
-      "ticker": "IREN",
-      "shares": 2.18,
-      "avg_cost": 46.34,
-      "opened": "2026-06-19",
-      "lots": [
-        {
-          "date": "2026-06-19",
-          "shares": 2.18,
-          "price": 46.34,
-          "imported": true
-        }
-      ],
-      "stop": null,
-      "target": null,
-      "imported": true,
-      "import_date": "2026-06-19",
-      "import_price": 59.96
     },
     {
       "ticker": "MSFT",

@@ -1,5 +1,5 @@
 {
-  "next_id": 24,
+  "next_id": 28,
   "suggestions": [
     {
       "id": 1,
@@ -415,6 +415,84 @@
       "target": null,
       "horizon_days": null,
       "spy_at_suggestion": 733.58,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 24,
+      "recorded_at": "2026-06-25T05:06:52Z",
+      "date": "2026-06-25",
+      "action": "sell",
+      "ticker": "IREN",
+      "price": 50.3,
+      "shares": 2.18,
+      "dollars": 109.65,
+      "thesis": "Stop breached: price $50.30 < $53-54 forward stop (set 6/19 at $54, reaffirmed 6/24 after closing right on top of the band at $54.72). Decline is stock-specific, not market-wide -- S&P/Nasdaq are modestly positive today on Micron's blowout earnings. Drivers: (1) Bitcoin slid ~2.2% to a low near $62,560, a direct revenue headwind for the still-~77%-bitcoin-mining-derived business; (2) persistent analyst split on the AI-pivot execution/valuation (price targets ranging $36-$100), with several trimming targets this week. Fundamentals (Microsoft AI cloud contract, GPU financing facility) are unchanged, but per AGENT.md a breached stop is acted on now, not re-litigated on a 'story is still good' basis -- that discipline is what kept the RKLB loss contained on 6/24. Exiting the full position; would reconsider on a confirmed base/reclaim, not a falling knife.",
+      "confidence": null,
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 733.24,
+      "status": "closed",
+      "outcome": {
+        "return_pct": 8.55,
+        "vs_avg_cost": 46.34
+      }
+    },
+    {
+      "id": 25,
+      "recorded_at": "2026-06-25T05:07:01Z",
+      "date": "2026-06-25",
+      "action": "sell",
+      "ticker": "EXPE",
+      "price": 262.15,
+      "shares": 0.22,
+      "dollars": 57.67,
+      "thesis": "Take-profit / trim at target: price $262.15 now exceeds the original $260 target set 6/19 (cost basis $227.27, +15.4%), after a fourth straight up session (+6.97% today) on Corient Private Wealth disclosing a large stake increase plus broad travel-sector strength as oil eases further on the Iran/Hormuz de-escalation. Per AGENT.md, extension past target calls for take-profit or a trim, not an open-ended hold on momentum alone -- the original 'weeks' catalyst-driven thesis has played out. Trimming half here to lock in the gain; letting the remainder ride with the stop raised to $245 (today's prior close, well above the original $220) to protect profit on what's left rather than risk round-tripping the whole position.",
+      "confidence": null,
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 733.24,
+      "status": "closed",
+      "outcome": {
+        "return_pct": 15.35,
+        "vs_avg_cost": 227.27
+      }
+    },
+    {
+      "id": 26,
+      "recorded_at": "2026-06-25T05:07:21Z",
+      "date": "2026-06-25",
+      "action": "watch",
+      "ticker": "GOOGL",
+      "price": 345.29,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Staying WATCH, thesis reinforced: GOOG/GOOGL is set to join the Dow Jones Industrial Average on June 29 (replacing Verizon), a fresh passive-flow tailwind similar in kind to what drove RKLB's Nasdaq-100 inclusion bid (though index funds tracking the Dow are far smaller than Nasdaq-100 trackers, so the flow effect is more modest). Offsetting: two senior AI researchers (Jonas Adler, Alexander Pritzel) are leaving for Anthropic, and Gemini 3.5 Pro has slipped to July -- talent/execution risk to watch, not yet thesis-breaking. Stop $331, target $420-430 unchanged. Price $345.29, ~4.3% above stop.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 733.24,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 27,
+      "recorded_at": "2026-06-25T05:07:22Z",
+      "date": "2026-06-25",
+      "action": "watch",
+      "ticker": "ZS",
+      "price": 127.27,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Staying WATCH (low confidence), new risk flagged: ZS exited the Nasdaq-100 at the June 22 quarterly rebalance, a passive-selling headwind layered on the post-earnings guidance disappointment (opposite direction of RKLB's inclusion tailwind). Today (a broad relief-rally day on Micron's earnings beat) is not the 'bad tape' test this name needs before an upgrade -- still waiting for it to hold up through a genuinely weak session. Stop $112, target $155-165 unchanged. Price $127.27, comfortably above stop for now.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 733.24,
       "status": "standalone",
       "outcome": null
     }
