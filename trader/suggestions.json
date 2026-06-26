@@ -1,5 +1,5 @@
 {
-  "next_id": 28,
+  "next_id": 30,
   "suggestions": [
     {
       "id": 1,
@@ -493,6 +493,42 @@
       "target": null,
       "horizon_days": null,
       "spy_at_suggestion": 733.24,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 28,
+      "recorded_at": "2026-06-26T05:08:19Z",
+      "date": "2026-06-26",
+      "action": "watch",
+      "ticker": "MSFT",
+      "price": 352.83,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Downgrading HOLD->WATCH: stock fell -3.46% to $352.83, now only ~2.3% above the $345 forward stop (set 6/19). Decline reads as broad megacap-tech de-risking, not MSFT-specific -- Apple -6.1%, Amazon -3.1%, Meta -2.7% same session -- triggered by the Fed's (Chair Kevin Warsh) hawkish pivot after the May PCE print landed exactly at a hot consensus (headline +4.1% YoY, core +3.4% YoY): 2026 rate cuts pulled, nine FOMC members now signal hikes by year-end. No fresh MSFT-specific bad news; Strong Buy consensus and the Cloud/Copilot growth thesis are unchanged. Stop $345, target $430-440 unchanged. Watching for: does $345 hold through a confirmed bad-tape day, or does the megacap selloff extend and force the stop.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 734.3,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 29,
+      "recorded_at": "2026-06-26T05:08:27Z",
+      "date": "2026-06-26",
+      "action": "watch",
+      "ticker": "EXPE",
+      "price": 250.95,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Downgrading HOLD->WATCH on the remaining half: price pulled back -4.27% to $250.95, now only ~2.4% above the $245 stop raised on 6/25 after the target-hit trim. Reads as normal give-back after a four-session, +15% parabolic run into the trim, layered on the same broad megacap/risk-asset de-risking hitting MSFT and GOOGL today (Fed's hawkish pivot post-PCE) -- not a new EXPE-specific negative. No fresh cancellation-rate disclosures; the oil/Hormuz de-escalation tailwind is intact and continuing to ease (Brent ~$74, down from $78 two days ago, per OFAC General License X extending Iranian oil sales through 8/21). Stop $245, target was $260 (already hit and trimmed) -- no new target set for the remainder; would consider a fresh target only after the position re-confirms strength. Watching for: does $245 hold through this pullback, or does it complete a round-trip of the trimmed gain.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 734.3,
       "status": "standalone",
       "outcome": null
     }
