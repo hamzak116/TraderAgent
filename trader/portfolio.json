@@ -1,7 +1,7 @@
 {
   "created": "2026-06-19",
   "starting_cash": 2003.42,
-  "cash": 424.23,
+  "cash": 482.05,
   "positions": [
     {
       "ticker": "GOOGL",
@@ -21,25 +21,6 @@
       "imported": true,
       "import_date": "2026-06-19",
       "import_price": 368.03
-    },
-    {
-      "ticker": "EXPE",
-      "shares": 0.22,
-      "avg_cost": 227.27,
-      "opened": "2026-06-19",
-      "lots": [
-        {
-          "date": "2026-06-19",
-          "shares": 0.44,
-          "price": 227.27,
-          "imported": true
-        }
-      ],
-      "stop": null,
-      "target": null,
-      "imported": true,
-      "import_date": "2026-06-19",
-      "import_price": 240.9
     },
     {
       "ticker": "MSFT",

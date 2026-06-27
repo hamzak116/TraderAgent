@@ -1,5 +1,5 @@
 {
-  "next_id": 30,
+  "next_id": 34,
   "suggestions": [
     {
       "id": 1,
@@ -529,6 +529,81 @@
       "target": null,
       "horizon_days": null,
       "spy_at_suggestion": 734.3,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 30,
+      "recorded_at": "2026-06-27T05:06:55Z",
+      "date": "2026-06-27",
+      "action": "sell",
+      "ticker": "EXPE",
+      "price": 262.8,
+      "shares": 0.22,
+      "dollars": 57.82,
+      "thesis": "Take-profit on the remaining half: price $262.80 (Fri 6/26 close) is back above the $260 target for the second time since the 6/25 trim (raised stop $245 never breached). Same continued travel-sector strength (oil/Hormuz de-escalation easing further) and a stake-increase disclosure already cited 6/25 -- no fresh catalyst beyond the original thesis re-confirming itself. Remaining position is now a small tail (0.22 sh, ~3% of equity); per AGENT.md discipline on extension past target, closing the rest here banks the full gain rather than letting a played-out 'weeks' catalyst trade ride indefinitely on no new information.",
+      "confidence": null,
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 728.99,
+      "status": "closed",
+      "outcome": {
+        "return_pct": 15.63,
+        "vs_avg_cost": 227.27
+      }
+    },
+    {
+      "id": 31,
+      "recorded_at": "2026-06-27T05:07:02Z",
+      "date": "2026-06-27",
+      "action": "hold",
+      "ticker": "MSFT",
+      "price": 372.97,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Upgrading WATCH->HOLD: stock rallied +5.71% Fri 6/26 to $372.97, now 8.1% clear of the $345 stop (was only 2.3% clear on 6/26's open, the reason for last WATCH downgrade). Drivers per market reporting: May PCE inflation data confirmed no upside surprise and Treasury yields stabilized, easing the hawkish-Fed scare that hit megacap tech 6/25; Michael Burry disclosed a bullish call-option position in MSFT, drawing institutional/retail buying into the pullback. No MSFT-specific negative news resurfaced. Strong Buy consensus and Cloud/Copilot growth thesis unchanged throughout. Stop $345, target $430-440 unchanged.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 728.99,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 32,
+      "recorded_at": "2026-06-27T05:07:06Z",
+      "date": "2026-06-27",
+      "action": "watch",
+      "ticker": "ZS",
+      "price": 132.26,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Staying WATCH (low conf): stock jumped +6.83% Fri 6/26 to $132.26 on a new multi-year cybersecurity sponsorship deal with the Aston Martin Aramco F1 team (Zero Trust Exchange securing car design/race data) -- a positive brand/marketing data point, not a resolution of the core concern flagged 6/19 (soft preliminary FY27 ARR growth guide, 16-17% vs ~18.4% expected) that triggered the original downgrade. Friday was also a weak tech tape overall (QQQ -1.38%, Nasdaq -4.6% on the week) yet ZS still rallied -- on a company-specific news pop, so this does not count as the 'holds through a genuinely bad session' resilience test still being waited on. Stop $112 (now 18% below price), target $155-165 unchanged.",
+      "confidence": "low",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 728.99,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 33,
+      "recorded_at": "2026-06-27T05:07:10Z",
+      "date": "2026-06-27",
+      "action": "watch",
+      "ticker": "GOOGL",
+      "price": 337.39,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Staying WATCH: stock fell -1.84% Fri 6/26 to $337.39, now only 1.93% above the $331 stop -- the tightest stop-buffer of any position in the book (closer than MSFT or EXPE were when they got downgraded this week). Continues to be pressured by the same AI-capex/talent-exodus narrative (Jumper and Shazeer departures, ~$190B 2026 capex guide) plus this week's broader AI-bubble-fear rotation out of chip/AI-momentum names (Nasdaq -4.6% on the week on OpenAI-IPO-delay and SpaceX-volatility headlines). Offsetting catalyst now imminent: GOOGL joins the Dow Jones Industrial Average at Monday 6/29's open (replacing Verizon), a passive-flow tailwind. Revenue growth (+22% YoY) and Strong Buy consensus (28/33 analysts) unchanged -- thesis not broken, but this is now the position closest to a mechanical stop-out; would sell immediately on a breach per the RKLB/IREN precedent, no second-guessing. Stop $331, target $420-430 unchanged.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 728.99,
       "status": "standalone",
       "outcome": null
     }
