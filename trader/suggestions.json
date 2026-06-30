@@ -1,5 +1,5 @@
 {
-  "next_id": 34,
+  "next_id": 36,
   "suggestions": [
     {
       "id": 1,
@@ -604,6 +604,42 @@
       "target": null,
       "horizon_days": null,
       "spy_at_suggestion": 728.99,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 34,
+      "recorded_at": "2026-06-30T05:06:44Z",
+      "date": "2026-06-30",
+      "action": "hold",
+      "ticker": "GOOGL",
+      "price": 353.65,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Upgrading WATCH->HOLD: Dow Jones inclusion landed at today's open as anticipated (replacing Verizon), and the stock rallied +4.82% to $353.65 on the news plus a broad risk-on tape (SPY +1.65%, QQQ +2.49%, VIX down to 17.65). Stop buffer widened from 1.93% (6/27) to 6.84% today -- the catalyst this WATCH was waiting on materialized exactly as expected with no negative surprise. AI-capex (~$190B 2026 guide) and talent-exodus overhang (Shazeer, Jumper, Adler, Pritzel departures) are unchanged/already-known, not fresh negatives; no new departures reported since 6/24. Revenue growth (+22% YoY) and Strong Buy consensus unchanged. Stop $331, target $420-430 unchanged.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 741.0,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 35,
+      "recorded_at": "2026-06-30T05:06:51Z",
+      "date": "2026-06-30",
+      "action": "hold",
+      "ticker": "MSFT",
+      "price": 368.57,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Reaffirming HOLD: stock dipped -1.18% to $368.57 even on a strong tech tape (QQQ +2.49%), amid headlines framing June as MSFT's worst month since 2000 (down roughly 17-20% from the $460 early-June high) on AI-capex-return anxiety. Checked the fundamentals this headline cites: Azure grew ~40% constant-currency, a fifth consecutive quarter of acceleration, beating the ~37% Street consensus; the $190B 2026 capex guide is tied to a backlog/demand story, not a sign capex is failing to convert to revenue. This is the exact scenario flagged 6/19 as NOT thesis-breaking ('breaks if Cloud/Copilot growth actually decelerates... or capex fails to convert to revenue') -- the opposite is happening on the fundamentals even as the multiple compresses on sentiment. Stop $345, now 6.8% clear (was 8.1% on 6/27). Target $430-440 unchanged. Watching for: does $345 hold, or does the sentiment-driven de-rating force the stop regardless of fundamentals.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 741.0,
       "status": "standalone",
       "outcome": null
     }
