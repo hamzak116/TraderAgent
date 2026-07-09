@@ -1,5 +1,5 @@
 {
-  "next_id": 38,
+  "next_id": 39,
   "suggestions": [
     {
       "id": 1,
@@ -676,6 +676,24 @@
       "target": null,
       "horizon_days": null,
       "spy_at_suggestion": 751.28,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 38,
+      "recorded_at": "2026-07-09T05:06:28Z",
+      "date": "2026-07-09",
+      "action": "watch",
+      "ticker": "ZS",
+      "price": 143.55,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Downgrading HOLD(#36, 7/2)->WATCH: ZS fell -3.98% to $143.55 on 7/8 while QQQ was +0.28% same session -- the opposite of the 7/1 resilience signal (ZS +3.75% vs QQQ -1.52%) that drove the HOLD upgrade. Drivers: a Form 144 filing (7/6, posted 7/7) signaling an insider's intent to sell restricted stock -- routine, same type flagged 'not a signal' in #37's holdings check -- layered on the still-unresolved late-May guidance reset (FY27 ARR growth guide 16-17% vs ~18.4% expected) that has never been fully absolved, just the subject of a resilience test now cutting the other way. No new print since the 5/26 Q3 beat. Not thesis-broken (stop $112 unchanged, 28.2% clear -- widest buffer of any active call) but the confidence case built on relative-strength evidence just weakened, so confidence moves back to low pending confirmation either way. Target $155-165 unchanged. Watching for: does this compound into a real breakdown on the next session, or was it a one-off filing-driven dip.",
+      "confidence": "low",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 745.4,
       "status": "standalone",
       "outcome": null
     }
