@@ -1,5 +1,5 @@
 {
-  "next_id": 39,
+  "next_id": 40,
   "suggestions": [
     {
       "id": 1,
@@ -694,6 +694,24 @@
       "target": null,
       "horizon_days": null,
       "spy_at_suggestion": 745.4,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 39,
+      "recorded_at": "2026-07-10T05:07:16Z",
+      "date": "2026-07-10",
+      "action": "watch",
+      "ticker": "ANET",
+      "price": 184.69,
+      "shares": null,
+      "dollars": null,
+      "thesis": "New candidate, not yet a position. Q1 FY26 earnings beat (EPS $0.87 vs $0.81 est, rev $2.71B vs $2.61B est) plus raised FY26 guidance and a new 1.6T AI-switch launch (7060XE7, deployments verified with Meta/Microsoft/Oracle) drove a +8.8% gap on 7/8 and +2.01% follow-through on 7/9 to $184.69 -- 2 days of above-average-volume follow-through after the breakout, the SEPA pattern this methodology screens for. KeyBanc/Morgan Stanley/BofA raised price targets toward $200. Fundamentals: revenue +30.6% TTM, operating margin 42.8%, Strong-Buy-tilted coverage. NOT bought today: price is only 2.7% below the 52wk high after a cumulative +11% 2-day move and ~6% above the pre-breakout pivot (~$173-175, the 7/6 close level) -- this is chasing an already-extended move per Minervini/SEPA discipline (buy at the pivot, not days after it), the same standard this ledger applied to pass on overbought financials this week (RSI 77, #ZS/#GOOGL notes). Also notable: breadth is narrow today (only 6 S&P 500 names at fresh 52wk highs per Trefis), so this is more a selective-leader move than a broad confirmation. Re-entry trigger: a pullback/consolidation back toward the $170-175 prior-resistance-turned-support zone (a proper handle), or a break above $189.82 (52wk high) with continued above-average volume if it doesn't pull back. Horizon: watch for 1-3 weeks pending Q2 earnings (8/4).",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 751.71,
       "status": "standalone",
       "outcome": null
     }
