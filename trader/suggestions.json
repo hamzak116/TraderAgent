@@ -1,5 +1,5 @@
 {
-  "next_id": 40,
+  "next_id": 41,
   "suggestions": [
     {
       "id": 1,
@@ -712,6 +712,24 @@
       "target": null,
       "horizon_days": null,
       "spy_at_suggestion": 751.71,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 40,
+      "recorded_at": "2026-07-11T05:05:45Z",
+      "date": "2026-07-11",
+      "action": "watch",
+      "ticker": "ZS",
+      "price": 139.27,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Staying WATCH (low conf), thesis deteriorating further: ZS fell -5.34% Fri 7/10 to $139.27 (from Thu's $147.12 bounce) on continued fallout from the late-May guidance reset. Fresh incremental negative not previously logged: CFO Kevin Rubin publicly attributed the cautious FY27 guide to losing two sales leaders and taking a 'prudent approach' amid the transition -- an execution/leadership-turnover risk layered on top of the FY27 ARR growth concern (16-17% vs ~18.4% expected) flagged since 6/19. This is the second down day in three sessions after Thursday's one-off-looking bounce (+2.49%), which weakens the 'one-off dip' read from #38 -- the compounding-into-a-real-breakdown scenario #38 flagged is now more plausible than the one-off read. Not yet thesis-broken (stop $112 unchanged, still 24.3% clear -- no single print or guidance confirmation has occurred, just sentiment/leadership overhang) and not tightening the stop reactively per RKLB/IREN discipline. Target $155-165 unchanged. Watching for: does $139 hold, or does weakness continue into next week without a clean explanation.",
+      "confidence": "low",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 754.95,
       "status": "standalone",
       "outcome": null
     }
