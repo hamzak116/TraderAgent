@@ -1,22 +1,21 @@
 # 📈 Portfolio Dashboard
 
-_Research-only paper portfolio — the agent never trades. Updated 2026-07-23 05:07 UTC._
+_Research-only paper portfolio — the agent never trades. Updated 2026-07-24 05:07 UTC._
 
-## $1,985.26  ·  -0.91% total  ·  **behind SPY by 1.00%**
+## $1,954.48  ·  -2.44% total  ·  **behind SPY by 1.30%**
 
-- Cash: $482.05  |  Invested: $1,503.21
-- Since 2026-06-19: portfolio -0.91% vs SPY +0.09%  →  alpha -1.00%
+- Cash: $590.06  |  Invested: $1,364.42
+- Since 2026-06-19: portfolio -2.44% vs SPY -1.15%  →  alpha -1.30%
 
 ## Positions
 
 | Ticker | Shares | Avg cost | Price | Day | Value | Unreal. | Stop | Target |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|
-| IVV\* | 0.77 | $681.82 | $750.93 | -0.14% | $578.22 | +10.14% | — | — |
-| SGOL\* | 12.45 | $41.37 | $39.34 | +1.11% | $489.78 | -4.91% | — | — |
-| ZS\* | 1.35 | $151.81 | $142.26 | -4.34% | $192.05 | -6.29% | — | — |
-| GOOGL\* | 0.34 | $294.12 | $342.09 | -1.46% | $116.31 | +16.31% | — | — |
-| MSFT\* | 0.18 | $416.67 | $390.34 | -1.86% | $70.26 | -6.32% | — | — |
-| VXUS\* | 0.67 | $74.64 | $84.46 | +0.01% | $56.59 | +13.16% | — | — |
+| IVV\* | 0.77 | $681.82 | $741.62 | -1.24% | $571.05 | +8.77% | — | — |
+| SGOL\* | 12.45 | $41.37 | $38.56 | -1.98% | $480.07 | -6.79% | — | — |
+| ZS\* | 1.35 | $151.81 | $139.70 | -1.80% | $188.59 | -7.98% | — | — |
+| MSFT\* | 0.18 | $416.67 | $381.58 | -2.24% | $68.68 | -8.42% | — | — |
+| VXUS\* | 0.67 | $74.64 | $83.62 | -0.99% | $56.03 | +12.03% | — | — |
 
 \* imported holding — Unreal. % is vs your own cost basis.
 
