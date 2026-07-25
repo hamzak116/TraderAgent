@@ -1,5 +1,5 @@
 {
-  "next_id": 76,
+  "next_id": 79,
   "suggestions": [
     {
       "id": 1,
@@ -1363,6 +1363,60 @@
       "target": null,
       "horizon_days": null,
       "spy_at_suggestion": 738.18,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 76,
+      "recorded_at": "2026-07-25T05:07:38Z",
+      "date": "2026-07-25",
+      "action": "hold",
+      "ticker": "MSFT",
+      "price": 381.7,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Reaffirming HOLD (#73, 7/24). Friday 7/24 full session: MSFT rose +0.03% to $381.70, essentially flat while the broader tape rotated (Dow +0.46%, Nasdaq -0.64%, QQQ -1.12%) -- stabilizing after two sessions of hyperscaler sympathy selling tied to GOOGL's capex/FCF shock. Stop buffer holds near 10.63% ($345 stop), unchanged from Thursday. FQ4 earnings now just 4 trading sessions out (Wed 7/29 after close); consensus revenue $86.7-87.8B (+13-15%), EPS $4.24, Azure guided 39-40% cc growth. Market focus has shifted from revenue beats to AI-capex ROI -- the same debate that broke GOOGL -- with MSFT stock already down ~18% YTD as of 7/20 on this skepticism. This is the decisive near-term catalyst for whether MSFT draws GOOGL's punishment or the market differentiates. No new negative company-specific news since 7/24. Not de-risking pre-earnings absent a stated reason, per established discipline (#44, #60, #73).",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 738.93,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 77,
+      "recorded_at": "2026-07-25T05:07:44Z",
+      "date": "2026-07-25",
+      "action": "watch",
+      "ticker": "ZS",
+      "price": 142.32,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Upgrading conviction low->medium within WATCH (per #74, 7/24) -- still NOT a buy, holding the imported position unchanged. Friday 7/24 full session: ZS rose +1.88% to $142.32, its best session in over a week, and this time there is an identifiable, ZS-specific catalyst rather than pure sympathy drift: Guggenheim upgraded ZS to Buy from Neutral ($214 PT) and KeyBanc raised its PT to $185 from $176 (dated 7/16 but recirculating), against a broader Zacks Security industry that has rallied ~15% over the period. This is a genuine positive catalyst, a change from the 7/22-7/24 notes that found 'no fresh company-specific catalyst.' Still below the $155-165 target floor (~7.4% gap now vs 10.2% Thursday) and the core overhang is unchanged: FY27 ARR growth guide cut to 16-17% vs ~18.4% expected, leadership turnover per the 7/10 CFO comments, no new print since 5/26. Stop $112, buffer still wide (~21%). Raising confidence to medium reflects the new analyst evidence, not a buy signal -- staying WATCH until price closes the gap to target or the guidance overhang resolves.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 738.93,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 78,
+      "recorded_at": "2026-07-25T05:07:49Z",
+      "date": "2026-07-25",
+      "action": "watch",
+      "ticker": "ANET",
+      "price": 173.99,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Staying WATCH (per #75, 7/24) -- NOT buying. Friday 7/24 full session: ANET fell -1.48% to $173.99, giving back Thursday's relative-strength divergence (+1.0% against a down tape) rather than extending it -- back into the $170-175 prior pullback zone, further from the $178-180 reclaim-on-volume bar. Over the past month ANET is still +6.75%, and analysts remain constructive into the 8/4 earnings date (EPS est. $0.89, +21.9% YoY; revenue est. $2.83B, +28.5% YoY), but one bad session right after the ledger's strongest-yet approach to the reclaim bar reinforces the standing discipline (since #47): a single session either direction is not the multi-session confirmation required. No fresh ANET-specific negative news found -- reads as broader Friday tech/QQQ softness (-1.12%) rather than a name-specific break. Re-entry bar unchanged: reclaim above $178-180 on above-average volume, or several sessions of decline-volume basing. Earnings 8/4 (~7 trading sessions out) now closer; not chasing ahead of it.",
+      "confidence": "low",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 738.93,
       "status": "standalone",
       "outcome": null
     }
