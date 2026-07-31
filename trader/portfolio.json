@@ -1,11 +1,11 @@
 {
   "created": "2026-06-19",
   "starting_cash": 2003.42,
-  "cash": 590.06,
+  "cash": 630.66,
   "positions": [
     {
       "ticker": "MSFT",
-      "shares": 0.18,
+      "shares": 0.09,
       "avg_cost": 416.67,
       "opened": "2026-06-19",
       "lots": [
