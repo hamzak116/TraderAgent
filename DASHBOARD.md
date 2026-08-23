@@ -1,6 +1,6 @@
 # 📈 Portfolio Dashboard
 
-_Research-only paper portfolio — the agent never trades. Updated 2026-08-22 05:06 UTC._
+_Research-only paper portfolio — the agent never trades. Updated 2026-08-23 05:04 UTC._
 
 ## $2,124.60  ·  +6.05% total  ·  **ahead of SPY by 3.51%**
 
