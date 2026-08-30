@@ -1,5 +1,5 @@
 {
-  "next_id": 265,
+  "next_id": 267,
   "suggestions": [
     {
       "id": 1,
@@ -4771,6 +4771,42 @@
       "target": null,
       "horizon_days": null,
       "spy_at_suggestion": 771.1,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 265,
+      "recorded_at": "2026-08-30T05:08:17Z",
+      "date": "2026-08-30",
+      "action": "watch",
+      "ticker": "PLTR",
+      "price": 186.29,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Fri 8/28 official close now confirmed at $186.29 (Thu 8/27: $185.93) -- both above the $180.18 pivot, technically satisfying the standing rule set #264 ('needs a second consecutive close above $180.18 before treating as a confirmed breakout'). But NOT upgrading to BUY: (1) volume confirmation is unverified/inconsistent across sources for the 8/27-8/28 sessions -- SEPA/VCP discipline requires a volume-backed breakout, not just a price close; (2) notable insider-selling cluster right around the breakout (CEO Karp $86M 8/20, CTO Sankar $5.4M 8/6, CAO Buckley 8/20-21, all 10b5-1); (3) consensus analyst PT $191.68 is barely above the current price (median $204, ~9% away) -- limited near-term asymmetry after already running from the low-$170s; (4) one technical read (8/25) describes 'stalling at $180' with lower-highs/lower-lows rather than a clean tight base. Fundamentals remain excellent (Q2 rev +93% YoY, guidance raised to $8.15-8.16B, 157% net dollar retention, DoD Program of Record + up to $244M added funding) and the catalyst is name-specific, not AI-sector beta. Staying at WATCH -- want confirmed volume follow-through or a pullback-to-support re-test before committing capital, not chasing a print that's already near consensus fair value.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 769.35,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 266,
+      "recorded_at": "2026-08-30T05:08:23Z",
+      "date": "2026-08-30",
+      "action": "avoid",
+      "ticker": "ANET",
+      "price": 195.38,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Fri 8/28 official close now confirmed at $195.38 (-2.84% from Thu 8/27's $201.09) -- feed lag meant #263 (dated 8/28) was actually still quoting Thursday's close. Standing AVOID since #47 unchanged: this extends the pullback off the NVDA-halo gap (8/27's +5.92% read-through spike) further from the $214.89 52wk high, continuing the vertical-then-pullback pattern rather than forming the tight, low-volatility multi-week SEPA/VCP base this ledger requires before entry (raw/minervini-sepa-vcp.md). Fundamentals remain excellent (Q2 first-ever $3B quarter, +37.7% YoY, FY26 guide raised to ~$12.6B) -- entry-timing avoid, not a fundamentals call. Will revisit if a genuine tight base forms.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 769.35,
       "status": "standalone",
       "outcome": null
     }
