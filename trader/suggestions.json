@@ -1,5 +1,5 @@
 {
-  "next_id": 288,
+  "next_id": 289,
   "suggestions": [
     {
       "id": 1,
@@ -5185,6 +5185,24 @@
       "target": null,
       "horizon_days": null,
       "spy_at_suggestion": 773.17,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 288,
+      "recorded_at": "2026-09-05T05:05:04Z",
+      "date": "2026-09-05",
+      "action": "hold",
+      "ticker": "ZS",
+      "price": 169.8,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Correction to 9/4 brief: framed the Q4 print as an unambiguous beat-and-raise (confidence upgraded to high). Fuller picture from analyst commentary since: FY27 ARR growth guided to just 16.6-17.4%, implying net-new ARR decelerating from ~17% in Q4 to roughly 4% at the midpoint -- a sharp deceleration, not a raise, on the metric that matters most for a subscription security name. Guidance also cites sales-leadership departures (2 leaders out last quarter), a ~3% headcount restructuring, slower Red Canary contribution, and elevated FY27 capex (pulled-forward data-center buys, higher memory prices). Stock round-tripped from +2.94% (9/4) to -4.50% (9/5), likely compounded by today's hot jobs print (payrolls +162k vs +53k est) lifting Sept rate-hike odds to ~58-59% -- a headwind for richly-valued growth names generally, ZS included. Net: revenue/EPS beat is real and the technical breakout thesis (#167, 8/11) is still intact -- price 69.80 is 5.8% above the 60 stop and well below the 10 target -- but confidence reverts to medium pending clarity on the sales-transition execution. Holding at unchanged stop/target; would revisit if price approaches 60 or if Q1 FY27 print confirms the ARR deceleration is worse than guided.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 770.19,
       "status": "standalone",
       "outcome": null
     }
