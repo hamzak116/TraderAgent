@@ -1,7 +1,7 @@
 {
   "created": "2026-06-19",
   "starting_cash": 2003.42,
-  "cash": 842.38,
+  "cash": 442.38,
   "positions": [
     {
       "ticker": "MSFT",
@@ -78,6 +78,21 @@
       "imported": true,
       "import_date": "2026-06-19",
       "import_price": 86.77
+    },
+    {
+      "ticker": "ANET",
+      "shares": 2.0047,
+      "avg_cost": 199.53,
+      "opened": "2026-09-18",
+      "lots": [
+        {
+          "date": "2026-09-18",
+          "shares": 2.0047,
+          "price": 199.53
+        }
+      ],
+      "stop": 189.0,
+      "target": 220.0
     }
   ],
   "benchmark": {
