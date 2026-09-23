@@ -1,7 +1,7 @@
 {
   "created": "2026-06-19",
   "starting_cash": 2003.42,
-  "cash": 442.38,
+  "cash": 42.38,
   "positions": [
     {
       "ticker": "MSFT",
@@ -93,6 +93,21 @@
       ],
       "stop": 189.0,
       "target": 220.0
+    },
+    {
+      "ticker": "PLTR",
+      "shares": 2.1623,
+      "avg_cost": 184.99,
+      "opened": "2026-09-23",
+      "lots": [
+        {
+          "date": "2026-09-23",
+          "shares": 2.1623,
+          "price": 184.99
+        }
+      ],
+      "stop": 176.0,
+      "target": 208.0
     }
   ],
   "benchmark": {
