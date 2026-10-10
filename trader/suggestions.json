@@ -1,5 +1,5 @@
 {
-  "next_id": 372,
+  "next_id": 374,
   "suggestions": [
     {
       "id": 1,
@@ -6511,8 +6511,17 @@
       "target": 208.0,
       "horizon_days": 21,
       "spy_at_suggestion": 773.38,
-      "status": "open",
-      "outcome": null
+      "status": "closed",
+      "outcome": {
+        "closed_date": "2026-10-10",
+        "close_price": 209.05,
+        "return_pct": 13.01,
+        "spy_return_pct": 0.67,
+        "alpha_pct": 12.34,
+        "grade": "win",
+        "exit_reason": "Target hit: 09.05 vs 08 target (+13% from 84.99 entry). +5.17% single-day spike with no company-specific news found; take profit per plan.",
+        "lesson": null
+      }
     },
     {
       "id": 361,
@@ -6709,6 +6718,45 @@
       "target": null,
       "horizon_days": null,
       "spy_at_suggestion": 771.35,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 372,
+      "recorded_at": "2026-10-10T05:05:55Z",
+      "date": "2026-10-10",
+      "action": "sell",
+      "ticker": "PLTR",
+      "price": 209.05,
+      "shares": 2.1623,
+      "dollars": 452.03,
+      "thesis": "Target hit: 09.05 vs 08 target (+13% from 84.99 entry). +5.17% single-day spike with no company-specific news found; take profit per plan.",
+      "confidence": null,
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 778.57,
+      "status": "closed",
+      "outcome": {
+        "return_pct": 13.01,
+        "vs_avg_cost": 184.99
+      }
+    },
+    {
+      "id": 373,
+      "recorded_at": "2026-10-10T05:05:56Z",
+      "date": "2026-10-10",
+      "action": "hold",
+      "ticker": "ANET",
+      "price": 216.74,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Within 1.5% of $220 target (216.74, +2.73%); S&P 100 inclusion thesis intact. Hold to target; stop 189.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 778.57,
       "status": "standalone",
       "outcome": null
     }
