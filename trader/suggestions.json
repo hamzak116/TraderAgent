@@ -1,5 +1,5 @@
 {
-  "next_id": 375,
+  "next_id": 376,
   "suggestions": [
     {
       "id": 1,
@@ -6043,8 +6043,17 @@
       "target": 220.0,
       "horizon_days": 21,
       "spy_at_suggestion": 762.6,
-      "status": "open",
-      "outcome": null
+      "status": "closed",
+      "outcome": {
+        "closed_date": "2026-10-17",
+        "close_price": 176.98,
+        "return_pct": -11.3,
+        "spy_return_pct": 0.09,
+        "alpha_pct": -11.39,
+        "grade": "loss",
+        "exit_reason": "Stop $189 breached (Oct 16 close $176.98, -11% vs entry); breakout above $197 pivot failed",
+        "lesson": null
+      }
     },
     {
       "id": 335,
@@ -6777,6 +6786,27 @@
       "spy_at_suggestion": 769.6,
       "status": "standalone",
       "outcome": null
+    },
+    {
+      "id": 375,
+      "recorded_at": "2026-10-17T05:06:18Z",
+      "date": "2026-10-17",
+      "action": "sell",
+      "ticker": "ANET",
+      "price": 176.98,
+      "shares": 2.0047,
+      "dollars": 354.79,
+      "thesis": "Stop $189 breached (Oct 16 close $176.98, -11% vs entry); breakout above $197 pivot failed",
+      "confidence": null,
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 763.25,
+      "status": "closed",
+      "outcome": {
+        "return_pct": -11.3,
+        "vs_avg_cost": 199.53
+      }
     }
   ]
 }
