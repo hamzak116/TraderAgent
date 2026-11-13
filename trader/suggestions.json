@@ -1,5 +1,5 @@
 {
-  "next_id": 376,
+  "next_id": 381,
   "suggestions": [
     {
       "id": 1,
@@ -6807,6 +6807,99 @@
         "return_pct": -11.3,
         "vs_avg_cost": 199.53
       }
+    },
+    {
+      "id": 376,
+      "recorded_at": "2026-11-13T05:07:28Z",
+      "date": "2026-11-13",
+      "action": "sell",
+      "ticker": "SGOL",
+      "price": 36.87,
+      "shares": 3.1125,
+      "dollars": 114.76,
+      "thesis": "TRIM 25%. Nov 12 close $36.87 (-2.79%) broke the $37 reassess line set on 11/11-11/12, sitting just above the 52wk low ($36.67), now -10.9% vs cost (past the Moderate ~10% stop distance). At ~23% of equity it also exceeds the Moderate 20% max position size. Driver: hotter Oct CPI (+0.4% m/m vs +0.3% exp, core +0.3% vs +0.2%) lifts December Fed-hike odds, which weighs on non-yielding gold. Trimming brings the position to ~17% of equity; keep the remaining 75% as the diversifier/geopolitical hedge.",
+      "confidence": null,
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 757.12,
+      "status": "closed",
+      "outcome": {
+        "return_pct": -10.88,
+        "vs_avg_cost": 41.37
+      }
+    },
+    {
+      "id": 377,
+      "recorded_at": "2026-11-13T05:07:28Z",
+      "date": "2026-11-13",
+      "action": "hold",
+      "ticker": "SGOL",
+      "price": 36.87,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Remaining ~9.34 sh held as a diversifier/geopolitical hedge after the 25% trim. New line: a close below $35.00 (~-5% from $36.87, a fresh 52wk low by a clear margin) means the downtrend is still running; reassess a further cut then. No target; it's a hedge.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 757.12,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 378,
+      "recorded_at": "2026-11-13T05:07:30Z",
+      "date": "2026-11-13",
+      "action": "hold",
+      "ticker": "IVV",
+      "price": 760.78,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Nov 12 close $760.78 (-0.30%). Core S&P 500 exposure, zero-alpha by design. No action.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 757.12,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 379,
+      "recorded_at": "2026-11-13T05:07:31Z",
+      "date": "2026-11-13",
+      "action": "hold",
+      "ticker": "MSFT",
+      "price": 523.0,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Nov 12 close $523.00 (+0.36%), held up on a down day for tech (QQQ -0.32%, NVDA -4.34%). No MSFT-specific news found. Thesis (Azure/Copilot) intact. No action.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 757.12,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 380,
+      "recorded_at": "2026-11-13T05:07:32Z",
+      "date": "2026-11-13",
+      "action": "hold",
+      "ticker": "VXUS",
+      "price": 82.66,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Nov 12 close $82.66 (-0.93%). International diversification per profile.md. No name-specific news. No action.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 757.12,
+      "status": "standalone",
+      "outcome": null
     }
   ]
 }

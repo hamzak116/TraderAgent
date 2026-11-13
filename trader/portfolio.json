@@ -1,7 +1,7 @@
 {
   "created": "2026-06-19",
   "starting_cash": 2003.42,
-  "cash": 849.2,
+  "cash": 963.96,
   "positions": [
     {
       "ticker": "MSFT",
@@ -24,7 +24,7 @@
     },
     {
       "ticker": "SGOL",
-      "shares": 12.45,
+      "shares": 9.3375,
       "avg_cost": 41.37,
       "opened": "2026-06-19",
       "lots": [
