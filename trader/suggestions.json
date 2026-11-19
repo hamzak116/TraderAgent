@@ -1,5 +1,5 @@
 {
-  "next_id": 381,
+  "next_id": 382,
   "suggestions": [
     {
       "id": 1,
@@ -6898,6 +6898,24 @@
       "target": null,
       "horizon_days": null,
       "spy_at_suggestion": 757.12,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 381,
+      "recorded_at": "2026-11-19T05:06:44Z",
+      "date": "2026-11-19",
+      "action": "hold",
+      "ticker": "SGOL",
+      "price": 35.44,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Gold diversifier at decision point: GLD closed below its prior 52-wk low (341.19 vs 351.96) on hawkish-Fed/strong-dollar pressure; SGOL 35.44 still above the 35.00 reassess line. Rule: SGOL close < 35.00 => suggest trim ~half. Not pre-empting the rule on one day.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 730.2,
       "status": "standalone",
       "outcome": null
     }
