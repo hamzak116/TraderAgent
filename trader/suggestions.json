@@ -1,5 +1,5 @@
 {
-  "next_id": 382,
+  "next_id": 385,
   "suggestions": [
     {
       "id": 1,
@@ -6916,6 +6916,63 @@
       "target": null,
       "horizon_days": null,
       "spy_at_suggestion": 730.2,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 382,
+      "recorded_at": "2026-11-20T05:06:46Z",
+      "date": "2026-11-20",
+      "action": "sell",
+      "ticker": "SGOL",
+      "price": 34.81,
+      "shares": 4.6688,
+      "dollars": 162.52,
+      "thesis": "Pre-committed rule triggered: SGOL closed $34.81 < $35.00 line (new 52-wk low area) after GLD broke its prior 52-wk low; Fed hike odds/strong dollar pressure non-yielding gold. Trim half, keep remaining half as hedge.",
+      "confidence": null,
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 715.87,
+      "status": "closed",
+      "outcome": {
+        "return_pct": -15.86,
+        "vs_avg_cost": 41.37
+      }
+    },
+    {
+      "id": 383,
+      "recorded_at": "2026-11-20T05:06:46Z",
+      "date": "2026-11-20",
+      "action": "hold",
+      "ticker": "SGOL",
+      "price": 34.81,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Remaining ~4.67 sh held as hedge after 50% trim. Next line: close below $33.00 (~5% under today) -> reassess exiting the rest; a close back above $37 would show the breakdown failed.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 715.87,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 384,
+      "recorded_at": "2026-11-20T05:06:47Z",
+      "date": "2026-11-20",
+      "action": "hold",
+      "ticker": "MSFT",
+      "price": 498.3,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Held at $498.30, ~11% off 52-wk high, above $480 review line; no thesis-breaking news. Close below $480 -> reassess.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 715.87,
       "status": "standalone",
       "outcome": null
     }
