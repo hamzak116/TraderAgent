@@ -1,5 +1,5 @@
 {
-  "next_id": 385,
+  "next_id": 388,
   "suggestions": [
     {
       "id": 1,
@@ -6973,6 +6973,60 @@
       "target": null,
       "horizon_days": null,
       "spy_at_suggestion": 715.87,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 385,
+      "recorded_at": "2026-11-21T05:06:54Z",
+      "date": "2026-11-21",
+      "action": "hold",
+      "ticker": "SGOL",
+      "price": 33.54,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Remaining half held. Fri close $33.54 is a new 52-wk low but above the pre-committed $33.00 reassess line. Close <$33.00 -> suggest exiting rest; close >$37 = breakdown failed.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 689.81,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 386,
+      "recorded_at": "2026-11-21T05:06:54Z",
+      "date": "2026-11-21",
+      "action": "hold",
+      "ticker": "MSFT",
+      "price": 484.52,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Fell -2.8% vs QQQ -5.7% in the AI selloff; held above the $480 review line (close $484.52). Close <$480 -> reassess/exit.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 689.81,
+      "status": "standalone",
+      "outcome": null
+    },
+    {
+      "id": 387,
+      "recorded_at": "2026-11-21T05:06:55Z",
+      "date": "2026-11-21",
+      "action": "avoid",
+      "ticker": "NVDA",
+      "price": 125.53,
+      "shares": null,
+      "dollars": null,
+      "thesis": "Reported SEC accounting probe, -14% to new 52-wk low; broken Stage-4 chart and open headline risk. Not a SEPA candidate.",
+      "confidence": "medium",
+      "stop": null,
+      "target": null,
+      "horizon_days": null,
+      "spy_at_suggestion": 689.81,
       "status": "standalone",
       "outcome": null
     }
